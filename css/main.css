@@ -150,9 +150,17 @@ header{
 }
 
 footer{
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 122px;
     margin-bottom: 50px;
+}
+
+.copy{
+    padding-top: 15px;
+}
+
+.socials{
+    margin-left: 25%;
 }
 
 .social-1{
@@ -160,7 +168,7 @@ footer{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 2%;
+    margin: 1%;
 }
 
 .social-2{
@@ -168,7 +176,7 @@ footer{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 2%;
+    margin: 1%;
 }
 
 .social-3{
@@ -176,7 +184,7 @@ footer{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 2%;
+    margin: 1%;
 }
 
 .social-4{
@@ -184,7 +192,7 @@ footer{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 2%;
+    margin: 1%;
 }
 
 .about{
@@ -263,6 +271,10 @@ form h3{
     text-align:center; 
 }
 
+.album h2{
+    padding-top: 210px;
+}
+
 .songs{
     border-bottom: 3px solid black;
     height: 70px;
@@ -281,4 +293,83 @@ form h3{
     margin-right: 122px;
     margin-left: 170px;
     margin-bottom: 40px;
+}
+
+.song{
+    margin-top: -12px !important;
+}
+
+.line{
+    width: 85%;
+    margin: 100px 122px;
+    height: 5px;
+    background-color: grey;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: grey;
+    margin-top: -17px !important;
+    margin-left: 30%;
+}
+
+.frame{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    margin-left: 122px;
+    margin-right: 5%;
+    float: left;
+}
+
+.back-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid grey;
+    background-image: url(../assets/Icons/previous_icon.svg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 34%;
+    margin-right: 3%;
+}
+
+.pause-button{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    border: 2px solid grey;
+    background-image: url(../assets/Icons/pause_icon.svg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -10px !important;
+    margin-right: 3%;
+}
+
+.next-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid grey;
+    background-image: url(../assets/Icons/next_icon.svg);
+    background-size: cover;
+    background-position: center;  
+}
+
+.time{
+    margin-top: 10px;
+}
+
+.bottom{
+    margin-bottom: 50px;
+}
+
+.dots{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid grey;
+    margin-left: -75%;
 }
